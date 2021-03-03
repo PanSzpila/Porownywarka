@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>porównywanie Liczb</title>
+    <script type="text/javascript">
+        var button = document.getElementById("check")
+
+
+        function doseitwork()
+        {
+        console.log ("it works");
+        alert ("it works");
+        document.getElementById("outprint").innerHTML = "it works";
+        document.write ("it works");
+        }
+    </script>
+</head>
+<body>
+    <h1>Porównywarka liczb</h1>
+    <p>Wpisz 2 liczby w poniższe pola i kliknij przycisk "sprawdź". Powinieneś otrzymać informację, która z nich jest większa.</p>
+    <form>  
+        <label for="number1">pierwsza liczba:</label>
+        <input type="text" id="number1" name="number1">
+        <label for="number2">druga liczba:</label>
+        <input type="text" id="number2" name="number2"/>
+        <input type="submit" id="check" name="check" value="sprawdź" onclick="doesitwork()"/>
+      </form>
+      <h4 id="outprint">Wpisz liczby piwyżej i kliknij "sprawdź".</h4>
+      
+      <!-- <script src="porownywanie.js"></script> -->
+</body>
+</html>
